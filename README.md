@@ -62,9 +62,9 @@ Skill: FASTapi, rabbitmq, celery, redis, mysql
 - 해결 방식: firestorefmf Vector DB와 검색도구로 사용해 관련성 높은 문서를 검색하고 이를 바탕으로 LLM모델이 응답을 생성하는 RAG 시스템 구축
 - 성과: LLM의 할루시네이션 억제를 통한 신뢰성 강화
 
-**[피부 질병 분석을 비동기 병렬 처리]**
+**[rabbitmq, celery를 활용한 비동기 병렬 처리]**
 
-- 문제 상황: 한번에 여러사진을 분석 요청시 순차적으로 작업을 진행하여 시간이 오래걸리는 문제 발생
+- 문제 상황: python의 GIL로 인한 CPU bound 작업의 비동기 병렬 처리 제약
 - 해결 방식: rabbitmq, celery, redis를 사용하여 비동기 병렬 처리 구현
 - 성과: 비동기 병렬 처리 도입으로인 한 N개의 사진을 분석 요청하면 N*8초 걸리던 시간이 10~12초로 감소
 
