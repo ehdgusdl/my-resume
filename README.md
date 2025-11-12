@@ -14,15 +14,15 @@
   </tr>
 </table>
 
-### Summary
+## Summary
 
 - End-to-End 프로젝트를 통해 기획부터 배포까지의 전 단계의 경험이 있습니다
 
-### Education
+## Education
 
 2021 ~  단국대학교 소프트웨어학과 3학년
 
-### Project
+## Project
 
 ### 피부 분석 서비스 **/** Backend 2025.07~2025.08 /[Github](https://github.com/2025-Techeer-Summer-Bootcamp-Team-J)
 
