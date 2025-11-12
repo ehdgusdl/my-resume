@@ -16,7 +16,7 @@
 
 ## Summary
 
-- End-to-End 프로젝트를 통해 기획부터 배포까지 리딩한 경험이 있습니다.
+- End-to-End 프로젝트를 통해 기획부터 배포까지 리딩 경험
 
 ## Education
 
@@ -90,5 +90,11 @@ Skill: FASTapi, mongoDB, mysql
 - 해결 방식: CI/CD 파이프라인을 구축하여 PR검사와 배포를 자동화
 - 성과: 빠르고 안정적인 검사를 자동화하여 재발 방지와 팀의 능률 향상
 
+### SKill
+
+- Framework: Springboot, FastAPI
+- Database: MySQL, PostgreSQL
+- Message Queue and Cashe: RabbitMQ, Redis
+- ETC: Docker, GCP, K6, Github Actions
 
 
