@@ -43,7 +43,7 @@ Skill: springboot, redis, Nginx, postgresql
 **[스케쥴러 기반 만료 데이터 삭제]** 
 
 - 문제 상황: 만료 시간이 지난 URL 데이터가 DB에 계속 유지되어 스토리지 낭비
-- 해결 방식: 스케줄러를 활용하여 자동화 배치를 구현
+- 해결 방식: 스케줄러를 활용하여 자동화 배치 구현
 - 성과: URL 만료 및 삭제 라이프사이클을 100% 자동화하여 운영 리소스 절감
 
 ### 피부 분석 서비스 **/** Backend 2025.07~2025.08 /[Github](https://github.com/2025-Techeer-Summer-Bootcamp-Team-J)
