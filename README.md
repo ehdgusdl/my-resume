@@ -26,6 +26,7 @@
 
 ### 피부 분석 서비스 **/** Backend 2025.07~2025.08 /[Github](https://github.com/2025-Techeer-Summer-Bootcamp-Team-J)
 
+Skill: FASTapi, rabbitmq, celery, redis, mysql
 
 **AI모델 학습**
 
@@ -47,6 +48,7 @@
 
 ### **AI 기반 발음 교정 서비스 /** Backend 2024.12 ~ 2025.01 /[Github](https://github.com/2024-WinterBootcamp-Team-E)
 
+Skill: FASTapi, mongoDB, mysql
 
 **SSE를 활용한 챗봇 시스템 구축**
 
