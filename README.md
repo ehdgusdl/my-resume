@@ -3,7 +3,7 @@
 <table>
   <tr>
     <td>
-      <img src="https://github.com/user-attachments/assets/4a9b7743-5482-4215-bcc4-b286522b34fb" width="120">
+      <img src="https://github.com/user-attachments/assets/e5faca76-a866-48dd-8427-48426839d0e4" width="120">
     </td>
     <td>
       <b>Phone</b>: 010-6271-7762<br>
