@@ -59,7 +59,7 @@ Skill: FastAPI, RabbitMQ, Celery, Redis, MySQL
 **[RAG 시스템 구축으로 인한 LLM 할루시네이션 억제]**
 
 - 문제 상황: LLM의 피부질환 설명에서 신뢰성 부족 문제가 발생
-- 해결 방식: firestorefmf Vector DB와 검색도구로 사용해 관련성 높은 문서를 검색하고 이를 바탕으로 LLM모델이 응답을 생성하는 RAG 시스템 구축
+- 해결 방식: Firestore를 Vector DB와 검색도구로 사용해 관련성 높은 문서를 검색하고 이를 바탕으로 LLM모델이 응답을 생성하는 RAG 시스템 구축
 - 성과: LLM의 할루시네이션 억제를 통한 신뢰성 강화
 
 **[rabbitmq, celery를 활용한 비동기 병렬 처리]**
@@ -94,7 +94,7 @@ Skill: FastAPI, MongoDB, MySQL
 
 - Framework: Springboot, FastAPI
 - Database: MySQL, PostgreSQL
-- Message Queue and Cashe: RabbitMQ, Redis
+- Message Queue and Cache: RabbitMQ, Redis
 - ETC: Docker, GCP, K6, Github Actions
 
 
