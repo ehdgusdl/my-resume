@@ -26,7 +26,6 @@
 
 ### 피부 분석 서비스 **/** Backend 2025.07~2025.08 /[Github](https://github.com/2025-Techeer-Summer-Bootcamp-Team-J)
 
-피부 질환을 분석 해주는 서비스 
 
 **AI모델 학습**
 
@@ -48,7 +47,6 @@
 
 ### **AI 기반 발음 교정 서비스 /** Backend 2024.12 ~ 2025.01 /[Github](https://github.com/2024-WinterBootcamp-Team-E)
 
-AI와 채팅을 하면서 발음 교정을 할 수 있는 서비스
 
 **SSE를 활용한 챗봇 시스템 구축**
 
