@@ -26,7 +26,7 @@
 
 ### URL 단축기 / Fullstack 2025.09~ / [Github](https://github.com/Shorten-it)
 
-Skill: springboot, redis, Nginx, postgresql
+Skill: Springboot, Redis, Nginx, PostgreSQL
 
 **[Redis Pub/Sub 기반 캐시 무효화 아키텍처도입]**
 
@@ -48,7 +48,7 @@ Skill: springboot, redis, Nginx, postgresql
 
 ### 피부 분석 서비스 **/** Backend 2025.07~2025.08 /[Github](https://github.com/2025-Techeer-Summer-Bootcamp-Team-J)
 
-Skill: FASTapi, rabbitmq, celery, redis, mysql
+Skill: FastAPI, RabbitMQ, Celery, Redis, MySQL
 
 **[AI모델 학습]**
 
@@ -70,7 +70,7 @@ Skill: FASTapi, rabbitmq, celery, redis, mysql
 
 ### **AI 기반 발음 교정 서비스 /** Backend 2024.12 ~ 2025.01 /[Github](https://github.com/2024-WinterBootcamp-Team-E)
 
-Skill: FASTapi, mongoDB, mysql
+Skill: FastAPI, MongoDB, MySQL
 
 **[SSE를 활용한 챗봇 시스템 구축]**
 
