@@ -62,7 +62,7 @@ Skill: FastAPI, RabbitMQ, Celery, Redis, MySQL
 - 해결 방식: Firestore를 Vector DB와 검색도구로 사용해 관련성 높은 문서를 검색하고 이를 바탕으로 LLM모델이 응답을 생성하는 RAG 시스템 구축
 - 성과: LLM의 할루시네이션 억제를 통한 신뢰성 강화
 
-**[rabbitmq, celery를 활용한 비동기 병렬 처리]**
+**[RabbitMQ, Celery를 활용한 비동기 병렬 처리]**
 
 - 문제 상황: python의 GIL로 인한 CPU bound 작업의 비동기 병렬 처리 제약
 - 해결 방식: rabbitmq, celery, redis를 사용하여 비동기 병렬 처리 구현
