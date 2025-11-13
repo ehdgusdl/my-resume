@@ -44,7 +44,7 @@ Skill: Spring Boot, Redis, Nginx, PostgreSQL
 
 - 문제 상황: 만료 시간이 지난 URL 데이터가 DB에 계속 유지되어 스토리지 낭비 및 쿼리 성능 저하
 - 해결 방식: Scheduler를 활용하여 만료 된 URL 데이터를 주기적으로 Bulk Delete하는 배치 작업 구현
-- 성과: URL 만료 및 삭제 라이프사이클을 100% 구축, 스토리지 사용량 **절감** 및 쿼리 성능 유지
+- 성과: URL 만료 및 삭제 라이프사이클을 100% 구축, 불필요한 데이터 적재를 방지하여 쿼리 성능 저하 예방
 
 ### **피부 분석 서비스 / Backend 2025.07~2025.08 /[Github](https://github.com/2025-Techeer-Summer-Bootcamp-Team-J)**
 
@@ -82,19 +82,18 @@ Skill: FASTapi, MongoDB, MySQL
 
 - 문제 상황: RDB 사용 시, 텍스트, 음성 인식 결과와 사용자 발음 데이터 저장에 스키마 변경 오버헤드 발생
 - 해결 방식: 스키마 유연성이 높은 NoSQL인 MongoDB를 도입, Document 단위로 대화 내역을 저장하여 Read/Write 효율성 증대
-- 성과: Document 단위로 대화 내역을 저장하여 Read/Write 효율성 증가
+- 성과: 향후 신규 기능 추가 시 스키마 변경이 불필요한 유연한 구조를 확보하여 유지보수성 향상
 
 **[Github Actions 기반 CI/CD 파이프라인 구축]**
 
 - 문제 상황: 팀 개발 환경에서 수동 테스트 및 배포로 인한 휴먼 에러 발생
 - 해결 방식: Github Actions를 활용하여 PR 생성 시 자동으로 Unit Test 및 Linter를 실행하는 CI 파이프라인 구축, main 브랜치 병합시 개발 서버로 자동 배포 CD 구축
-- 성과: 테스트 자동화를 통해 배포 안정성을 향상시켜 팀의 개발 생산성 및 효율성 향상
+- 성과: PR 검증을 자동화하여, 팀원들이 수동 테스트가 아닌 코드 리뷰에 집중할 수 있는 협업 환경 구축
 
 ### SKill
 
 - Framework: Springboot, FastAPI
 - Database: MySQL, PostgreSQL
-- Message Queue and Cache: RabbitMQ, Redis
+- Message Queue and Cashe: RabbitMQ, Redis
 - ETC: Docker, GCP, K6, Github Actions
-
 
