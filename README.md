@@ -31,7 +31,7 @@ Skill: Spring Boot, Redis, Nginx, PostgreSQL
 **[Redis Pub/Sub 기반 캐시 무효화 아키텍처도입]**
 
 - 문제 상황: URL 만료/삭제 시, 다중화된 서버 인스턴스 간 Redis 캐시 데이터 불일치로 리디렉션 오류 발생.
-- 해결 방식: URL 상태 변경 시 특정 Topic으로 메시지를 Publish하고, 모든 인스턴스가 이를 Subscribe하여 즉시 로컬 캐시를 무효화하는 아키텍처 설계 및 도입
+- 해결 방식: URL 상태 변경 시 특정 Topic으로 메시지를 Publish하고, 모든 인스턴스가 Subscribe하여 즉시 로컬 캐시를 무효화하는 아키텍처 설계 및 도입
 - 성과: 만료 URL 접근 시 발생하는 리디렉션 오류율을 0%로 제거하여 데이터 일관성 보장
 
 **[Nginx 로드 밸런싱을 통한 고가용성 확보]** 
