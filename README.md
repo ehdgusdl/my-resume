@@ -95,6 +95,6 @@ Skill: FASTapi, MongoDB, MySQL
 
 - Framework: Springboot, FastAPI
 - Database: MySQL, PostgreSQL
-- Message Queue and Cashe: RabbitMQ, Redis
+- Message Queue and Cache: RabbitMQ, Redis
 - ETC: Docker, GCP, K6, Github Actions
 
